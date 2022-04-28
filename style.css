@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica;
+  background-image: url(/BG.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+nav {
+  display: flex;
+  padding: 1rem 2rem;
+  background: black;
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 55px;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 4rem; /* 7! */
+}
+
+nav a {
+  text-decoration: underline;
+  text-decoration-color: rgb(124, 124, 81);
+  color: white;
+}
+nav ul li a:active {
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  nav li {
+    padding: 0.5rem 0;
+  }
+}
+
+.name {
+  width: 800px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+#name {
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 1px 11px gray;
+}
+
+#para {
+  color: white;
+  font-size: 15px;
+  font-weight: 450;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+}
+
+/* .know {
+  color: rgb(173, 173, 7);
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+.know:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 0, 0.699);
+  transform: scale(2, 0.5);
+} */
+a {
+  box-shadow: inset 0 0 0 0 #ffffff;
+  color: #a69288;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 rgb(56, 55, 55);
+  color: #a69288;
+  text-decoration: none;
+}
+
+.bg {
+  color: rgb(212, 209, 209);
+  width: 100%;
+  font-family: "Anybody", cursive;
+  font-size: 30px;
+  position: absolute;
+  top: 600px;
+}
+
+.n {
+  color: #a69288;
+  font-size: 55px;
+  margin-top: 15px;
+}
+
+.t {
+  position: absolute;
+  top: 1680px;
+  left: 95px;
+  color: white;
+  font-family: "Anybody", cursive;
+}
+
+.e {
+  position: absolute;
+  top: 1740px;
+  left: 95px;
+  color: white;
+  font-family: "Anybody", cursive;
+  width: 200px;
+}
+
+.x {
+  position: absolute;
+  top: 1800px;
+  left: 95px;
+  color: white;
+  font-family: "Anybody", cursive;
+  width: 200px;
+}
+
+.i {
+  position: absolute;
+  left: 600px;
+  top: 15px;
+  color: #6f828c;
+}
+
+.para {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.edu {
+  position: absolute;
+  top: 800px;
+  left: 150px;
+  color: white;
+  font-family: "Anybody", cursive;
+}
+
+.coll {
+  position: absolute;
+  top: 850px;
+  left: 180px;
+  color: rgb(212, 209, 209);
+  font-family: "Anybody", cursive;
+}
+
+.bq {
+  position: absolute;
+  font-size: 20px;
+}
+
+.grade {
+  position: absolute;
+  top: 955px;
+  left: 180px;
+  color: rgb(212, 209, 209);
+  font-family: "Anybody", cursive;
+}
+
+.about-heading {
+  font-size: 2rem;
+  color: #a69288;
+  font-family: "Anybody", cursive;
+}
+
+.languages {
+  position: absolute;
+  top: 1070px;
+  left: 150px;
+}
+
+.langu {
+  position: absolute;
+  top: 1110px;
+  left: 180px;
+  margin-top: 25px;
+}
+
+.langu h2 {
+  color: rgb(212, 209, 209);
+  font-family: "Anybody", cursive;
+  margin: 10px;
+}
+
+.projects {
+  position: absolute;
+  top: 1425px;
+  left: 150px;
+}
+
+.pro1 {
+  position: absolute;
+  top: 1480px;
+  left: 180px;
+  color: rgb(212, 209, 209);
+  font-family: "Anybody", cursive;
+}
+
+.contactinfo {
+  position: absolute;
+  top: 1000px;
+  left: 10px;
+}
+
+.contact {
+  position: absolute;
+  top: 1560px;
+  left: 550px;
+  color: #6f828c;
+  font-size: 3rem;
+  font-family: "Anybody", cursive;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
